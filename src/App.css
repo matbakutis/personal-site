@@ -1,0 +1,91 @@
+.linkHover a::before,
+.linkHover a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.linkHover a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.linkHover a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.linkHover a:hover::before,
+.linkHover a:hover::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.linkHover {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 600px;
+	margin: 25px auto;
+}
+
+#navName {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.aLink {
+	text-decoration: none;
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+@media (max-width: 480px) {
+	.linkHover {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.aLink {
+		text-align: center;
+		flex-basis: 33%;
+	}
+	.dropLink {
+		order: 1;
+		flex-basis: 37%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

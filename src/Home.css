@@ -1,0 +1,12 @@
+.homeName {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13vw;
+	text-align: center;
+}
+
+.homeLegend {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}

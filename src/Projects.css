@@ -1,0 +1,133 @@
+.title {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3
+}
+
+.project {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 10vh 5vw;
+	align-items: center;
+}
+
+.projectReversed {
+	flex-direction: row-reverse;
+}
+
+.projectText {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+.projectTitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	margin-bottom: 1vw;
+}
+
+.projectAbout {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.icon {
+	width: 3vw;
+	min-width: 25px;
+	margin: 3px;
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+.iconBlock {
+	display: flex;
+	flex-direction: column;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.underIcon {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: .25rem;
+	margin: 0;
+}
+
+.hrStyle {
+	width: 85vw;
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+
+@media (min-width: 735px) {
+	.projectShotLeft {
+		width: 35vw;
+		-webkit-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		-moz-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		margin-right: 3vw;
+	}
+
+	.projectShotRight {
+		width: 35vw;
+		-webkit-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		-moz-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		margin-left: 3vw;
+	}
+}
+
+@media (max-width: 735px) {
+	.project {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin: 10vh 5vw;
+	}
+
+	.projectShot {
+		width: 75vw;
+		margin: 10vh auto;
+		-webkit-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		-moz-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+		margin-top: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

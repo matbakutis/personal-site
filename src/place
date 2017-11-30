@@ -1,0 +1,12 @@
+<div className="TopBar">
+					<div id="navName">
+						Mat Bakutis
+					</div>
+					<div className="linkHover">
+						<Link to="/">Home</Link>
+						<Link to="/projects">Projects</Link>
+						<Link to="/background">Background</Link>
+						<Link to="/skills">Skills</Link>
+						<Link to="/contact">Contact</Link>
+					</div>
+				</div>
