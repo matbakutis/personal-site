@@ -2,11 +2,39 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13vw;
 	text-align: center;
+	margin-top: 10vh;
 }
 
 .homeLegend {
 	font-family: 'Montserrat', sans-serif;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	margin-left: 42vw;
+	font-size: 25px;
+}
+
+@media (max-width: 850px) {
+	.homeLegend {
+		margin-left: 36vw;
+	}
+}
+
+@media (max-width: 700px) {
+	.homeLegend {
+		margin-left: 33vw;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 450px) {
+	.homeLegend {
+		margin-left: 25vw;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 300px) {
+	.homeLegend {
+		margin: 0;
+		text-align: center;
+		font-size: 10px;
+	}
 }

@@ -4,7 +4,7 @@ import TransitionGroup from "react-transition-group/TransitionGroup";
 import './App.css';
 import Home from './Home.js';
 import Projects from './Projects.js';
-import Background from './Background.js';
+import About from './About.js';
 import Skills from './Skills.js';
 import Contact from './Contact.js';
 
@@ -31,7 +31,7 @@ class App extends Component {
 					<div className="linkHover">
 						<Link to="/" className="aLink">Home</Link>
 						<Link to="/projects" className="aLink dropLink">Projects</Link>
-						<Link to="/background" className="aLink">Background</Link>
+						<Link to="/about" className="aLink">About</Link>
 						<Link to="/skills" className="aLink dropLink">Skills</Link>
 						<Link to="/contact" className="aLink">Contact</Link>
 					</div>
@@ -54,10 +54,10 @@ class App extends Component {
 				)}/>
 				<Route
 					exact
-					path="/background"
+					path="/about"
 					children={({ match, ...rest }) => (
 					<TransitionGroup component={firstChild}>
-						{match && <Background {...rest} />}
+						{match && <About {...rest} />}
 					</TransitionGroup>
 				)}/>
 				<Route
