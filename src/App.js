@@ -15,14 +15,6 @@ const firstChild = props => {
 };
 
 class App extends Component {
-	burgerToggle() {
-		let linksEl = document.querySelector('.narrowLinks');
-		if (linksEl.style.display === 'block') {
-			linksEl.style.display = 'none';
-		} else {
-			linksEl.style.display = 'block';
-		}
-	}
 
 	render() {
 		return (

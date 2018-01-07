@@ -1,0 +1,24 @@
+#summary {
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+#quote {
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+#basic {
+    margin: 0;
+}
+
+.list {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.listName {
+    margin-bottom: 0;
+}
