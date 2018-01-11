@@ -1,9 +1,7 @@
-#summary {
-    font-family: 'Open Sans Condensed', sans-serif; 
-}
-
-#quote {
-    font-family: 'Open Sans Condensed', sans-serif; 
+#quote, #summary {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin: 15px;
 }
 
 #basic {
@@ -13,6 +11,7 @@
 .list {
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 0;
+    text-align: center;
 }
 
 li {
@@ -21,4 +20,64 @@ li {
 
 .listName {
     margin-bottom: 0;
+    text-align: center;
+}
+
+.theLists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.portrait {
+    max-width: 35%;
+    margin: 0 30px;
+    align-self: center;
+    -webkit-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+    -moz-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+    box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+}
+
+.portraitLandscape {
+    display: none;
+}
+
+.aboutText {
+    align-self: center;
+}
+
+.aboutContent {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hrStyleAbout {
+	width: 35vw;
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+@media (max-width: 860px) {
+    .aboutContent {
+        flex-direction: column-reverse;
+    }
+
+    .portrait {
+        display: none;
+    }
+
+    .portraitLandscape {
+        display: block;
+        max-width: 75%;
+        margin: 10px 30px;
+        align-self: center;
+        -webkit-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+        -moz-box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+        box-shadow: 20px 26px 107px -8px rgba(0,0,0,0.55);
+    }
 }
