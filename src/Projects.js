@@ -39,11 +39,22 @@ class ProjectsComponent extends Component {
 					<a href="https://react-guild.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src="/Guildy.jpg" className="projectShotLeft projectShot" alt="Guildy Screen Shot" /></a>
 					<div className="projectText">
 						<div className="projectTitle">Guildy</div>
-						<div className="projectAbout">Guildy is meant to be a hub for World of Warcraft guilds (in game communities). Guild leaders can sign up their guild and create rosters for the in game teams that the site will display statistics and information about. We used React for the front-end, while using Sinatra and Ruby to set up the back-end. We used PostgreSQL to create an sql database.</div>
+						<div className="projectAbout">Guildy is meant to be a hub for World of Warcraft guilds (in game communities). Guild leaders can sign up their guild and create rosters for the in game teams that the site will display statistics and information about. We used React for the front-end, while using Sinatra and Ruby to set up the back-end. We used PostgreSQL to create a sql database.</div>
 						<div className="icons">
 							<div className="iconBlock"><a href="https://github.com/CollCrom/Guild-Website" target="_blank" rel="noopener noreferrer"><img src="/icons/GitHub.png" className="icon" alt="GitHub Icon" /></a><div className="underIcon">Front End</div></div>
 							<div className="iconBlock"><a href="https://github.com/matbakutis/Guild-Website-Back-End" target="_blank" rel="noopener noreferrer"><img src="/icons/GitHub.png" className="icon" alt="GitHub Icon" /></a><div className="underIcon">Back End</div></div>
 							<a href="https://react-guild.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src="/icons/Link.png" className="icon" alt="Link Icon" /></a>
+						</div>
+					</div>
+				</div>
+				<hr className="hrStyle" />
+				<div className="project projectReversed">
+					<a href="https://github.com/matbakutis/Air-Hockey" target="_blank" rel="noopener noreferrer"><img src="/airHockey.gif" className="projectShotRight projectShot" alt="Air Hockey GIF" /></a>
+					<div className="projectText">
+						<div className="projectTitle">Air Hockey</div>
+						<div className="projectAbout">Air Hockey is an arcade air hockey game bulit for IOS, but mainly for an IPad. I created all of the art work myself, and have the game running and playable on an IPad, but because it costs money to upload an app onto the app store, there is no way for the public to play it at this time. Air Hockey is built using Unity and C# scripts.</div>
+						<div className="icons">
+							<a href="https://github.com/matbakutis/Air-Hockey" target="_blank" rel="noopener noreferrer"><img src="/icons/GitHub.png" className="icon" alt="GitHub Icon" /></a>
 						</div>
 					</div>
 				</div>
